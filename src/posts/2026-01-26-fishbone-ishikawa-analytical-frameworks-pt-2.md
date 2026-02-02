@@ -62,7 +62,7 @@ What I like about this tool compared to the Project Premortem is that it _can_ b
 >     
 > - Enables logical discussion of the next steps for testing changes.
 >     
-> - Documents which causes are targeted for data collection or have already been verified with data.[1](https://substack.com/home/post/p-185890135#footnote-1-185890135)
+> - Documents which causes are targeted for data collection or have already been verified with data.¹
 >     
 
 The forced categorization prevents “premature closure” — you don’t get stuck on the first cause that comes to mind, and you’re forced to think of causes across multiple areas.
@@ -95,6 +95,6 @@ So Long,
   
 Marianne
 
-[1](https://substack.com/home/post/p-185890135#footnote-anchor-1-185890135)
+¹
 
 Kumah, A., Nwogu, C. N., Issah, A.-R., Obot, E., Kanamitie, D. T., Sifa, J. S., & Aidoo, L. A. (2024). Cause-and-effect (fishbone) diagram: A tool for generating and organizing quality improvement ideas. _Global Journal on Quality and Safety in Healthcare_, _7_(2), 85–87. [https://doi.org/10.36401/JQSH-23-42](https://doi.org/10.36401/JQSH-23-42)
