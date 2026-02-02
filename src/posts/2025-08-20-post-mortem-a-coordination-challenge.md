@@ -49,9 +49,7 @@ The result wasn’t malicious, it was predictable: you optimized locally, not co
 
 ---
 
----
-
-## What’s Next
+## What's Next
 
 The next campaign will play at the edges of this problem again. I want to see whether coordination emerges when the incentives are clearer. Think of it as the next round of the same game, but with slightly different stakes.
 
@@ -64,9 +62,3 @@ So Long,
 Marianne 🩵
 
 **P.S.** If you _did_ make it all the way through to the end, I’d love for you to comment the name of a track that caught your ear.
-
-[](https://substack.com/profile/173113031-defender)
-
-1 Like
-
-[](https://substack.com/note/p-171524655/restacks?utm_source=substack&utm_content=facepile-restacks)

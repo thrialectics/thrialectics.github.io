@@ -60,17 +60,10 @@ If you’d like early access, have feedback on my methodologies, or would gracio
 
 Otherwise, stay tuned, and let me know if you have any feedback.  
 
-So Long,  
-  
+So Long,
+
 Marianne 🩵
 
-_  
 P.S. Ironically, as I was writing this, there was a security breach in the NPM ecosystem (the JavaScript package registry that many web applications depend on). Malicious code specifically targeting cryptographic operations got pushed to packages that see billions of weekly downloads. This kind of risk is the reason I’ve chosen simple, low-stakes implementations to explore these ideas with you.  
   
-I have much to learn; I’m sure I’ll learn a lot of it from many of you. xx_
-
-[](https://substack.com/profile/1054810-matt-de-caussin)[](https://substack.com/profile/16477561-ramjet_oddity)[](https://substack.com/profile/328657456-chii)
-
-3 Likes
-
-[](https://substack.com/note/p-172917398/restacks?utm_source=substack&utm_content=facepile-restacks)
+I have much to learn; I’m sure I’ll learn a lot of it from many of you. xx

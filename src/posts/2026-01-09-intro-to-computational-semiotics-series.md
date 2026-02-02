@@ -97,9 +97,3 @@ If you would like to learn along with me, let me know via comments or twitter/X 
 So Long,
 
 Marianne
-
-[](https://substack.com/profile/84933447-lucas-schiavini)[](https://substack.com/profile/22053602-gabriel-hollis)[](https://substack.com/profile/2147822-omar)[](https://substack.com/profile/16334599-1d4dc1d4ea1d)[](https://substack.com/profile/23442664-nicolas-d-villarreal)
-
-9 Likes∙
-
-[1 Restack](https://substack.com/note/p-183999615/restacks?utm_source=substack&utm_content=facepile-restacks)

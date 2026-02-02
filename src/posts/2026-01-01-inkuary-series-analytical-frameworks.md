@@ -56,9 +56,3 @@ I’m looking forward to mutual accountability, editing & critique, and witnessi
 Until next time,
 
 Marianne
-
-[](https://substack.com/profile/5382804-mac-vogt)[](https://substack.com/profile/159462555-matthew-mazza)[](https://substack.com/profile/22053602-gabriel-hollis)[](https://substack.com/profile/2494829-xiq)[](https://substack.com/profile/7992825-shadow-rebbe)
-
-7 Likes
-
-[](https://substack.com/note/p-183160418/restacks?utm_source=substack&utm_content=facepile-restacks)

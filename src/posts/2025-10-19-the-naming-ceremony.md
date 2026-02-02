@@ -11,8 +11,6 @@ A few weeks ago I wrote about true names, signatures, and proof of authorship. I
 
 ![screenshot of Cryptonym Generator](https://substackcdn.com/image/fetch/,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd40ecb3a-7cdf-4e4a-b708-21b4b597aef5_1498x1240.png "screenshot of Cryptonym Generator")
 
-screenshot of Cryptonym Generator
-
 [Claim Your Name](https://www.byemarianne.com/cryptonym)
 
 ---
@@ -34,9 +32,8 @@ This is beta testing for **Serpent/Dove**, my “magical warfare” alternate re
 - Your feedback will shape the final implementation
     
 - Early participants will influence the game design
-    
-    ---
-    
+
+---
 
 ## The Invitation
 
@@ -52,10 +49,4 @@ Marianne 🩵
 
 ---
 
-_P.S. There are some small changes to [byemarianne.com](https://www.byemarianne.com). Maybe a taking a little waltz around the site will yield a fun result._
-
-[](https://substack.com/profile/16477561-ramjet_oddity)
-
-1 Like
-
-[](https://substack.com/note/p-176590669/restacks?utm_source=substack&utm_content=facepile-restacks)
+_P.S. There are some small changes to [byemarianne.com](https://www.byemarianne.com). Maybe a taking a little waltz around the site will yield a fun result.
