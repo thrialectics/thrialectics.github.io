@@ -1,0 +1,17 @@
+[
+  {
+    "name": "ByeMarianne",
+    "tagline": "ARG platform exploring digital intimacy",
+    "description": "A full alternate reality game platform featuring a newsletter system, cryptographic puzzles, and community coordination mechanics.",
+    "tech": ["React", "TypeScript", "Supabase", "Resend"],
+    "url": "https://byemarianne.com"
+  },
+  {
+    "name": "Threadlinking",
+    "tagline": "Connect files with their origin stories",
+    "description": "Claude Code tool for preserving conversation context across AI sessions. Threads accumulate decisions and rationale so you can trace back to the why.",
+    "tech": ["TypeScript", "Node.js", "MCP"],
+    "url": "https://github.com/thrialectics/threadlinking",
+    "npm": "https://npmjs.com/package/threadlinking"
+  }
+]

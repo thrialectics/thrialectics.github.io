@@ -1,0 +1,178 @@
+:root {
+  --bg: #fafafa;
+  --text: #1a1a1a;
+  --text-secondary: #666;
+  --accent: #4f46e5;
+  --border: #e5e5e5;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.banner {
+  height: 70px;
+  background: url('/images/banner.png') center 70%;
+  background-size: cover;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--text);
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-title {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-title:hover {
+  text-decoration: none;
+}
+
+.glyph {
+  color: var(--accent);
+  margin-left: 0.25rem;
+}
+
+nav.site-nav {
+  margin-bottom: 2rem;
+}
+
+nav.site-nav a {
+  color: var(--text-secondary);
+  margin-right: 1rem;
+  font-size: 0.9rem;
+}
+
+nav.site-nav a:hover {
+  color: var(--accent);
+}
+
+.social-links {
+  margin: 1rem 0 2rem;
+  font-size: 0.9rem;
+}
+
+.social-links a {
+  color: var(--text-secondary);
+}
+
+.social-links span {
+  color: var(--border);
+  margin: 0 0.5rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+ul li::before {
+  content: "·";
+  color: var(--text-secondary);
+  margin-right: 0.5rem;
+}
+
+.project-tech,
+.post-date {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+article.post {
+  max-width: 640px;
+}
+
+article.post h1 {
+  margin-bottom: 0.5rem;
+}
+
+article.post .post-date {
+  margin-bottom: 2rem;
+}
+
+article.post p,
+article.post ul,
+article.post ol {
+  margin-bottom: 1rem;
+}
+
+article.post ul,
+article.post ol {
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+article.post li::before {
+  content: none;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 2rem 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}

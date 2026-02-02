@@ -1,0 +1,27 @@
+---json
+{
+  "permalink": "feed.xml",
+  "eleventyExcludeFromCollections": true
+}
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Marianne</title>
+  <subtitle>Tools that preserve context and connection</subtitle>
+  <link href="{{ '/feed.xml' | absoluteUrl('https://example.com') }}" rel="self"/>
+  <link href="https://example.com/"/>
+  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>https://example.com/</id>
+  <author>
+    <name>Marianne</name>
+  </author>
+  {%- for post in collections.posts | head(10) %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ post.url | absoluteUrl('https://example.com') }}"/>
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ post.url | absoluteUrl('https://example.com') }}</id>
+    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls('https://example.com') }}</content>
+  </entry>
+  {%- endfor %}
+</feed>
