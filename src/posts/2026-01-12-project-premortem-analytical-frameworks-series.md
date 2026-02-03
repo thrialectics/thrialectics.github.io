@@ -19,7 +19,7 @@ Some variation of the above “crystal ball scenario” is how the premortem beg
 
 With this foresight, can they come up with the probable causes of the failure?
 
-It was developed by cognitive psychologist Gary Klein[1](https://substack.com/home/post/p-184353676#footnote-1-184353676) as a risk assessment tool, and it’s the inverse of the typical project postmortem. Instead of looking at the project in hindsight and asking what happened/what could have been done better, the premortem takes place before the project even begins. It asks the team to assume spectacular failure, then work backward from that assumption to arrive at the causes.
+It was developed by cognitive psychologist Gary Klein¹ as a risk assessment tool, and it’s the inverse of the typical project postmortem. Instead of looking at the project in hindsight and asking what happened/what could have been done better, the premortem takes place before the project even begins. It asks the team to assume spectacular failure, then work backward from that assumption to arrive at the causes.
 
 It’s effective because it provides structure for project teams and stakeholders to overcome groupthink and a fear of repercussions for providing critique. They’re given explicit social permission to surface concerns that might have otherwise gone unspoken.
 
@@ -40,13 +40,13 @@ First I’ll explain how it works, then a few reasons why it works. I’ll also 
 5. After consolidating the reasons, the team revisits the plan: they generate a robust risk register and mitigation plan based on the premortem exercise.
     
 
-Note: it’s the future-temporal register and the certainty of the failure that make the premortem work.[2](https://substack.com/home/post/p-184353676#footnote-2-184353676)
+Note: it’s the future-temporal register and the certainty of the failure that make the premortem work.²
 
 If you only ask the team to think about “what might possibly go wrong,” they’ll provide abstract speculation — probably tepid, vague intimations. When the frame is that this project has _certainly_ and _spectacularly_ failed, and they are explicitly encouraged to share all possible causes, it activates much more concrete reasoning. It also helps participants overcome the fear of being “impolitic.”
 
-Some teams with challenging hierarchical organization and internal politics might also allow for anonymous submissions during step four[3](https://substack.com/home/post/p-184353676#footnote-3-184353676), so that team members can feel comfortable raising particularly sensitive concerns.
+Some teams with challenging hierarchical organization and internal politics might also allow for anonymous submissions during step four³, so that team members can feel comfortable raising particularly sensitive concerns.
 
-The efficacy of the premortem compared to other techniques has some empirical basis. In _How to catch a black swan: Measuring the benefits of the premortem technique for risk identification_, Gallop, Willy, and Bischoff conclude that “teams using the premortem technique identified better quality risks, more quality changes to the plan, and identified more black swan risks than their brainstorming counterparts.”[4](https://substack.com/home/post/p-184353676#footnote-4-184353676)
+The efficacy of the premortem compared to other techniques has some empirical basis. In _How to catch a black swan: Measuring the benefits of the premortem technique for risk identification_, Gallop, Willy, and Bischoff conclude that “teams using the premortem technique identified better quality risks, more quality changes to the plan, and identified more black swan risks than their brainstorming counterparts.”⁴
 
 
 
@@ -81,24 +81,18 @@ Marianne
 
 _This was part one of a 7-part series. I’ll be alternating between this Analytical Frameworks series and the Computational Semiotics series over the course of the month. The next framework is: **Fishbone / Ishikawa Diagram.**_
 
-[1](https://substack.com/home/post/p-184353676#footnote-anchor-1-184353676)
+¹
 
 Klein, G. (2007). "Performing a Project Premortem." _Harvard Business Review_, 85(9), 18-19.
 
-[2](https://substack.com/home/post/p-184353676#footnote-anchor-2-184353676)
+²
 
 Mitchell, D.J., Russo, J.E., & Pennington, N. (1989). “Back to the future: Temporal perspective in the explanation of events.” Journal of Behavioral Decision Making, 2(1), 25-38.
 
-[3](https://substack.com/home/post/p-184353676#footnote-anchor-3-184353676)
+³
 
 Serrat, O. (2017). "The Premortem Technique." In _Knowledge Solutions_ (pp. 189-193). Springer. [https://doi.org/10.1007/978-981-10-0983-9_22](https://doi.org/10.1007/978-981-10-0983-9_22)
 
-[4](https://substack.com/home/post/p-184353676#footnote-anchor-4-184353676)
+⁴
 
-Gallop, D., Willy, C., & Bischoff, J. (2016). “How to catch a black swan: Measuring the benefits of the premortem technique for risk identification.” _Journal of Enterprise Transformation_, 6(2), 87-106.
-
-[](https://substack.com/profile/443471628-vintage-books2)[](https://substack.com/profile/16477561-ramjet_oddity)[](https://substack.com/profile/112126497-nassim)[](https://substack.com/profile/5382804-mac-vogt)[](https://substack.com/profile/7992825-shadow-rebbe)
-
-5 Likes
-
-[](https://substack.com/note/p-184353676/restacks?utm_source=substack&utm_content=facepile-restacks)
+Gallop, D., Willy, C., & Bischoff, J. (2016). "How to catch a black swan: Measuring the benefits of the premortem technique for risk identification." _Journal of Enterprise Transformation_, 6(2), 87-106.

@@ -33,7 +33,7 @@ Brandon builds up the fundamentals through the lens of training a neural network
 > 
 > - Encoder that captures important features by reducing dimensionality.
 >     
-> - Decoder that rebuilds the data from this compressed representation.[1](https://substack.com/home/post/p-185352334#footnote-1-185352334)
+> - Decoder that rebuilds the data from this compressed representation.¹
 >     
 
 I’ll run through each of the concepts he introduces through this worked example.
@@ -88,7 +88,7 @@ I don’t want to get too into the weeds here, but the main thing to understand 
 >     
 > - **Hidden Layers**: These layers perform a series of transformations on the input data. Each hidden layer applies weights and [activation functions](https://www.geeksforgeeks.org/machine-learning/activation-functions-neural-networks/) to capture important patterns, progressively reducing the data’s size and complexity.
 >     
-> - **Output (Latent Space)**: The encoder outputs a compressed vector known as the latent representation or encoding. This vector captures the important features of the input data in a condensed form [and] helps in filtering out noise and redundancies.[2](https://substack.com/home/post/p-185352334#footnote-2-185352334)
+> - **Output (Latent Space)**: The encoder outputs a compressed vector known as the latent representation or encoding. This vector captures the important features of the input data in a condensed form [and] helps in filtering out noise and redundancies.²
 >     
 
 Remember the connection between Plato’s Cave and projection in linear algebra from the first lecture? The “hidden layer” in the neural network is like the cave wall. The network can only express a flat (2D) shadow of the original, higher-dimensional input.
@@ -161,7 +161,7 @@ A smaller model space gives you more stability, but it might be systematically w
 
 By increasing the amount of data and the size of their models, Kaplan et al. found that the error kept going down in a predictable way. From this we got the “scaling era” which has been the state of AI for the past several years.
 
-Brandon brings up a paper called “The Platonic Representation Hypothesis”[3](https://substack.com/home/post/p-185352334#footnote-3-185352334) which was based on the fact that neural networks trained on different datasets with different objectives converged on a shared statistical model of reality.
+Brandon brings up a paper called “The Platonic Representation Hypothesis”³ which was based on the fact that neural networks trained on different datasets with different objectives converged on a shared statistical model of reality.
 
 He argues, however, that training models on basically identical data (the entire internet) != making a statement about the Platonic world of forms.
 
@@ -205,14 +205,14 @@ Marianne
 
 ---
 
-[1](https://substack.com/home/post/p-185352334#footnote-anchor-1-185352334)
+¹
 
 “Auto-Encoders,” GeeksforGeeks, [https://www.geeksforgeeks.org/machine-learning/auto-encoders](https://www.geeksforgeeks.org/machine-learning/auto-encoders/)
 
-[2](https://substack.com/home/post/p-185352334#footnote-anchor-2-185352334)
+²
 
 Ibid.
 
-[3](https://substack.com/home/post/p-185352334#footnote-anchor-3-185352334)
+³
 
 Minyoung Huh, Brian Cheung, Tongzhou Wang, and Phillip Isola, "The Platonic Representation Hypothesis," arXiv:2405.07987 (2024), [https://arxiv.org/abs/2405.07987](https://arxiv.org/abs/2405.07987)
