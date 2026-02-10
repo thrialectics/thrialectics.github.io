@@ -24,9 +24,3 @@ So long,
 Marianne
 
 P.S. I would love for you to document your experience along the way. I’ve given some suggestions on the site, and tracking the process matters as much as the solution. #ByeMarianne was the best I could think of for now, but I’ll bet you can come up with something even more clever.
-
-[](https://substack.com/profile/8983600-oakkahta)[](https://substack.com/profile/3548640-jessica-friday)
-
-2 Likes
-
-[](https://substack.com/note/p-171103472/restacks?utm_source=substack&utm_content=facepile-restacks)
