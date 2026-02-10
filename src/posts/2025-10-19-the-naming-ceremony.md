@@ -49,4 +49,4 @@ Marianne 🩵
 
 ---
 
-_P.S. There are some small changes to [byemarianne.com](https://www.byemarianne.com). Maybe a taking a little waltz around the site will yield a fun result.
+_P.S. There are some small changes to [byemarianne.com](https://www.byemarianne.com). Maybe a taking a little waltz around the site will yield a fun result._

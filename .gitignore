@@ -4,3 +4,6 @@ _site/
 *.log
 .env
 .playwright-mcp/
+
+# Local Netlify folder
+.netlify

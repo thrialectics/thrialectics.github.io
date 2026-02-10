@@ -61,4 +61,4 @@ So Long,
 
 Marianne 🩵
 
-**P.S.** If you _did_ make it all the way through to the end, I’d love for you to comment the name of a track that caught your ear.
+**P.S.** If you _did_ make it all the way through to the end, I'd love for you to comment the name of a track that caught your ear.

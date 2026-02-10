@@ -95,4 +95,4 @@ Serrat, O. (2017). "The Premortem Technique." In _Knowledge Solutions_ (pp. 189-
 
 ⁴
 
-Gallop, D., Willy, C., & Bischoff, J. (2016). “How to catch a black swan: Measuring the benefits of the premortem technique for risk identification.” _Journal of Enterprise Transformation_, 6(2), 87-106.
+Gallop, D., Willy, C., & Bischoff, J. (2016). "How to catch a black swan: Measuring the benefits of the premortem technique for risk identification." _Journal of Enterprise Transformation_, 6(2), 87-106.

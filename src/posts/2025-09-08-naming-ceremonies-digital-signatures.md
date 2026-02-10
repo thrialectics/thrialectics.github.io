@@ -64,6 +64,6 @@ So Long,
 
 Marianne 🩵
 
-P.S. Ironically, as I was writing this, there was a security breach in the NPM ecosystem (the JavaScript package registry that many web applications depend on). Malicious code specifically targeting cryptographic operations got pushed to packages that see billions of weekly downloads. This kind of risk is the reason I’ve chosen simple, low-stakes implementations to explore these ideas with you.  
-  
-I have much to learn; I’m sure I’ll learn a lot of it from many of you. xx
+P.S. Ironically, as I was writing this, there was a security breach in the NPM ecosystem (the JavaScript package registry that many web applications depend on). Malicious code specifically targeting cryptographic operations got pushed to packages that see billions of weekly downloads. This kind of risk is the reason I've chosen simple, low-stakes implementations to explore these ideas with you.
+
+I have much to learn; I'm sure I'll learn a lot of it from many of you. xx
