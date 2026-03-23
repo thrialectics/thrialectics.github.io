@@ -1,17 +1,68 @@
 [
   {
-    "name": "ByeMarianne",
-    "tagline": "ARG platform exploring digital intimacy",
-    "description": "A full alternate reality game platform featuring a newsletter system, cryptographic puzzles, and community coordination mechanics.",
-    "tech": ["React", "TypeScript", "Supabase", "Resend"],
-    "url": "https://byemarianne.com"
+    "name": "Serpent/Dove",
+    "tagline": "A multi-platform alternate reality game",
+    "description": "An ARG where strangers solve puzzles, earn cryptographic identities, and piece together a story no single player can see alone. The system spans two web applications, a narrative newsletter, and a cryptographic identity layer.",
+    "details": [
+      "A collaborative coordination puzzle where 10 players each contribute one word — submitted independently — to reconstruct a hidden message. No single player has enough information. They have to find each other.",
+      "A 10-question personality quiz assigns players to one of six Investigator Archetypes (Architect, Archivist, Patternist, Cartographer, Interlocutor, Chronologist), which determines their puzzle missions and the newsletter content they receive.",
+      "The Cryptonym Generator uses OpenAI semantic embeddings to match personality responses against 1,961 vectorized Cold War-era codenames via cosine similarity. Each player then generates an Ed25519 keypair from a BIP39 12-word mnemonic recovery phrase. Identity is cryptographically verifiable — no one can forge a player's signature.",
+      "10 serialized newsletter letters serve as both genuine essays and puzzle delivery mechanisms. Clues cross platforms, creating information asymmetry that drives real coordination between strangers."
+    ],
+    "tech": ["Next.js 15", "Python FastAPI", "Supabase PostgreSQL", "OpenAI Embeddings", "Ed25519", "BIP39", "AES-256-GCM", "Resend"],
+    "url": "https://byemarianne.com",
+    "secondary_url": "https://byemarianne.com/cryptonym",
+    "secondary_label": "Cryptonym Generator"
   },
   {
     "name": "Threadlinking",
-    "tagline": "Connect files with their origin stories",
-    "description": "Claude Code tool for preserving conversation context across AI sessions. Threads accumulate decisions and rationale so you can trace back to the why.",
-    "tech": ["TypeScript", "Node.js", "MCP"],
+    "tagline": "AI context preservation across sessions",
+    "description": "A published npm package (CLI + MCP server) that preserves conversation context across AI sessions. Threads accumulate decisions and rationale so future sessions can trace back to the why behind any file or decision.",
+    "details": [
+      "Semantic search powered by local Xenova transformer embeddings — no API calls required. Snippets, file links, and threads create a persistent memory layer for AI-assisted development.",
+      "Ships as both a CLI tool and an MCP server, integrating directly with Claude Code and other AI development environments."
+    ],
+    "tech": ["TypeScript", "Node.js", "MCP", "Xenova Transformers"],
     "url": "https://github.com/thrialectics/threadlinking",
     "npm": "https://npmjs.com/package/threadlinking"
+  },
+  {
+    "name": "Schelling Points",
+    "tagline": "Real-time multiplayer word game with semantic scoring",
+    "description": "A multiplayer coordination game where players independently submit words trying to match each other. Scoring uses OpenAI embeddings and cosine similarity — close matches earn partial credit, creating emergent strategy around semantic proximity.",
+    "tech": ["React", "WebSocket", "OpenAI Embeddings", "Node.js"],
+    "url": "https://schellingpoints.ulyssepence.com/",
+    "code": "https://github.com/thrialectics/schelling-points-pm"
+  },
+  {
+    "name": "Cryptonym Generator",
+    "tagline": "Semantic codename generator with cryptographic identity",
+    "description": "A personality-driven codename assignment tool that matches user responses against 1,961 vectorized Cold War-era codenames using semantic embeddings. Generates Ed25519 keypairs from BIP39 mnemonics for cryptographically verifiable identity.",
+    "tech": ["OpenAI Embeddings", "Ed25519", "BIP39", "Next.js"],
+    "url": "https://byemarianne.com/cryptonym",
+    "code": "https://github.com/thrialectics/cryptonym-generator"
+  },
+  {
+    "name": "Intention Primitive Language",
+    "tagline": "A language for describing what software should do",
+    "description": "A research prototype for a declarative language that lets non-programmers describe software intentions in structured natural language, which AI agents then implement. Exploring the boundary between specification and code.",
+    "tech": ["Language Design", "AI Agents", "Prototyping"],
+    "url": "https://apo-pitch.netlify.app/",
+    "code": "https://github.com/thrialectics/apo"
+  },
+  {
+    "name": "Which Tech Stack?",
+    "tagline": "Interactive quiz for tech stack recommendations",
+    "description": "A decision-support tool that walks developers through their project requirements and recommends appropriate technology stacks based on their answers.",
+    "tech": ["React", "TypeScript"],
+    "url": "https://whichtechstack.com/",
+    "code": "https://github.com/thrialectics/which-tech-stack"
+  },
+  {
+    "name": "Career Compass",
+    "tagline": "CLI career preference discovery tool",
+    "description": "A command-line tool that helps users discover career preferences through structured self-assessment. Scores across 49 dimensions to surface patterns in what kind of work energizes you.",
+    "tech": ["Node.js", "Commander.js", "CLI"],
+    "code": "https://github.com/thrialectics/career-compass"
   }
 ]

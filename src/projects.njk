@@ -1,0 +1,49 @@
+---
+layout: base.njk
+title: Projects
+---
+
+<header>
+  <h1><a href="/" class="site-title">Marianne <span class="glyph">☉</span></a></h1>
+</header>
+
+<nav class="site-nav">
+  <a href="/">Home</a>
+  <a href="/blog/">Writing</a>
+  <a href="/about/">About</a>
+</nav>
+
+<hr>
+
+<h2>Projects</h2>
+
+{%- for project in projects %}
+<div class="project-card">
+  <h3>
+    <a href="{{ project.url }}">{{ project.name }}</a>
+    {%- if project.npm %}
+      <span class="project-badge">npm</span>
+    {%- endif %}
+  </h3>
+  <p class="project-tagline">{{ project.tagline }}</p>
+  <p>{{ project.description }}</p>
+  {%- if project.details %}
+    {%- for detail in project.details %}
+    <p class="project-detail">{{ detail }}</p>
+    {%- endfor %}
+  {%- endif %}
+  {%- if project.secondary_url %}
+    <p class="project-links">
+      <a href="{{ project.url }}">{{ project.name }}</a>
+      <span class="link-sep">·</span>
+      <a href="{{ project.secondary_url }}">{{ project.secondary_label }}</a>
+    </p>
+  {%- endif %}
+  {%- if project.code %}
+    <p class="project-links">
+      <a href="{{ project.code }}">View source on GitHub</a>
+    </p>
+  {%- endif %}
+  <p class="project-tech">{{ project.tech | join(" · ") }}</p>
+</div>
+{%- endfor %}

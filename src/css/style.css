@@ -147,6 +147,12 @@ article.post h1 {
   margin-bottom: 0.5rem;
 }
 
+article.post .post-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
 article.post .post-date {
   margin-bottom: 2rem;
 }

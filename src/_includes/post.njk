@@ -16,6 +16,7 @@ layout: base.njk
 
 <article class="post">
   <h1>{{ title }}</h1>
+  {% if subtitle %}<p class="post-subtitle">{{ subtitle }}</p>{% endif %}
   <p class="post-date">{{ date | dateFormat }}</p>
 
   {{ content | safe }}

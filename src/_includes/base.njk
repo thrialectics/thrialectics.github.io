@@ -4,9 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if title %}{{ title }} | {% endif %}Marianne</title>
-  <meta name="description" content="{{ description or 'Marianne builds tools that preserve context and connection.' }}">
+  <meta name="description" content="{{ description or 'A decade leading cross-functional teams at national scale. Now I build tools for human-AI collaboration.' }}">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="Marianne's Blog" href="/feed.xml">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Marianne Dawson",
+    "url": "https://mariannedawson.dev",
+    "description": "A decade leading cross-functional teams at national scale. Now I build tools for human-AI collaboration.",
+    "author": {
+      "@type": "Person",
+      "name": "Marianne Dawson",
+      "url": "https://mariannedawson.dev",
+      "jobTitle": "AI Software Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Klew Studio",
+        "url": "https://klew.studio"
+      },
+      "sameAs": [
+        "https://twitter.com/thrialectics",
+        "https://byemarianne.substack.com",
+        "https://github.com/thrialectics",
+        "https://klew.studio",
+        "https://byemarianne.com"
+      ]
+    }
+  }
+  </script>
 </head>
 <body>
   <div class="banner" aria-hidden="true"></div>
