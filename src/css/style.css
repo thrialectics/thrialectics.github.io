@@ -83,30 +83,38 @@ a:hover {
 
 nav.site-nav {
   margin-bottom: 2rem;
+  font-size: 0.9rem;
 }
 
 nav.site-nav a {
   color: var(--text-secondary);
   margin-right: 1rem;
-  font-size: 0.9rem;
 }
 
 nav.site-nav a:hover {
   color: var(--accent);
 }
 
-.social-links {
-  margin: 1rem 0 2rem;
-  font-size: 0.9rem;
+.nav-sep {
+  display: inline-block;
+  width: 1px;
+  height: 0.8em;
+  background: var(--border);
+  vertical-align: middle;
+  margin-right: 1rem;
 }
 
-.social-links a {
+.icon-link {
   color: var(--text-secondary);
+  vertical-align: middle;
 }
 
-.social-links span {
-  color: var(--border);
-  margin: 0 0.5rem;
+.icon-link:hover {
+  color: var(--accent);
+}
+
+.icon-link svg {
+  vertical-align: -2px;
 }
 
 hr {
@@ -178,6 +186,62 @@ article.post img {
   height: auto;
   display: block;
   margin: 1.5rem 0;
+}
+
+.project-card {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.project-card:last-child {
+  border-bottom: none;
+}
+
+.project-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.project-card h3 a {
+  color: var(--text);
+}
+
+.project-card h3 a:hover {
+  color: var(--accent);
+}
+
+.project-badge {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.project-tagline {
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.project-detail {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.project-links {
+  font-size: 0.9rem;
+}
+
+.project-links .link-sep {
+  color: var(--border);
+  margin: 0 0.5rem;
 }
 
 @media (max-width: 600px) {

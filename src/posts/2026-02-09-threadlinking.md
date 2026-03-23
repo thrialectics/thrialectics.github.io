@@ -45,13 +45,7 @@ Naming conventions matter. Good thread names are project-level: `personal-websit
 
 ## How It Actually Works
 
-Threadlinking plugs into Claude Code through three components. I'll explain each briefly, and if you're not already familiar with MCP, I'll give you the short version: **MCP** (Model Context Protocol) is the open standard that lets AI assistants use external tools. Anthropic created it, and in December 2025 they donated it to the Linux Foundation, where it's now co-governed by OpenAI, Google, Microsoft, and others. This is how Claude Code talks to the outside world.
-
-#### The Hook
-
-When you install Threadlinking, it registers a hook that fires every time Claude creates or edits a file. The hook quietly records which files were touched during your session. This doesn't capture any content or reasoning on its own, it just notes "this file was modified" and adds it to a pending list.
-
-What this means in practice is that at the start of your next session, Threadlinking can tell you: "These files were edited but aren't linked to any thread yet." Files that stay unlinked for 30 days get cleared from the pending list automatically.
+Threadlinking plugs into Claude Code through two components. I'll explain each briefly, and if you're not already familiar with MCP, I'll give you the short version: **MCP** (Model Context Protocol) is the open standard that lets AI assistants use external tools. Anthropic created it, and in December 2025 they donated it to the Linux Foundation, where it's now co-governed by OpenAI, Google, Microsoft, and others. This is how Claude Code talks to the outside world.
 
 #### The MCP Server
 
@@ -71,7 +65,7 @@ All of this lives in a single JSON file at `~/.threadlinking/thread_index.json`.
 
 I do want to be transparent about privacy, though. If you're using Threadlinking through the MCP server, that means Claude reads your context in order to work with it, so it passes through Anthropic's infrastructure like anything else in your conversation. Threadlinking doesn't add any *new* data exposure beyond what you're already sharing by using Claude Code in the first place, but it doesn't eliminate it, either.
 
-For people who are more privacy-conscious and want this as a dev tool for decision history, Threadlinking also works as a standalone CLI tool. You can use it entirely by hand, without the MCP server or hooks, as a kind of "git for decisions." You manually save your snippets, link your files to threads, and search your context yourself. Nothing will touch an LLM unless you set up the MCP integration.
+For people who are more privacy-conscious and want this as a dev tool for decision history, Threadlinking also works as a standalone CLI tool. You can use it entirely by hand, without the MCP server, as a kind of "git for decisions." You manually save your snippets, link your files to threads, and search your context yourself. Nothing will touch an LLM unless you set up the MCP integration.
 
 Under the hood, the file operations use atomic writes and locking to prevent corruption when the CLI and MCP server are both trying to read and write at the same time. If the JSON file somehow gets corrupted, the storage layer backs it up automatically and falls back to a clean state.
 
@@ -155,7 +149,7 @@ npm install -g threadlinking
 threadlinking init
 ```
 
-The global install is needed because Threadlinking's hooks need `threadlinking` available as a command between sessions. The `init` command walks you through the full configuration: hooks, MCP server, and CLAUDE.md instructions. The whole process takes about a minute.
+The global install is needed so that `threadlinking` is available as a command across sessions. The `init` command walks you through the full configuration: MCP server and CLAUDE.md instructions. The whole process takes about a minute.
 
 ![Threadlinking init setup process, showing hook installation and CLAUDE.md configuration](/images/threadlinkingsetup.png)
 
