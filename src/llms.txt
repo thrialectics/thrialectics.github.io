@@ -1,0 +1,35 @@
+# Marianne Dawson
+
+> Software developer, writer, and founder of Klew Studio. Builds tools for AI-human collaboration, including threadlinking (an npm package and MCP server for preserving decision-making context across AI sessions). Writes about computational semiotics, analytical frameworks, and AI tooling.
+
+Marianne's work sits at the intersection of software engineering, narrative design, and AI augmentation. She builds systems that help humans and AI agents collaborate more effectively by preserving context, structuring intent, and making decisions traceable.
+
+## Blog Posts
+
+- [Mapping the Terrain](https://mariannedawson.dev/posts/intro-to-computational-semiotics-part-four/): Computational semiotics series, part four
+- [Quantifying Meaning](https://mariannedawson.dev/posts/intro-to-computational-semiotics-part-three/): Computational semiotics series, part three
+- [Context Engineering with Threadlinking](https://mariannedawson.dev/posts/threadlinking/): How threadlinking works as a context preservation layer for AI development
+- [Building Systems That Build Systems](https://mariannedawson.dev/posts/harness-and-horses/): On meta-engineering and tool-building philosophy
+- [Fishbone/Ishikawa: Analytical Frameworks Pt.2](https://mariannedawson.dev/posts/fishbone-ishikawa-analytical-frameworks-pt-2/): Root cause analysis frameworks applied to software
+- [Intro to Computational Semiotics: Part Two](https://mariannedawson.dev/posts/intro-to-computational-semiotics-part-two/): Signs, symbols, and meaning in computational systems
+- [Project Premortem: Analytical Frameworks Series](https://mariannedawson.dev/posts/project-premortem-analytical-frameworks-series/): Pre-failure analysis for software projects
+- [Intro to Computational Semiotics Series](https://mariannedawson.dev/posts/intro-to-computational-semiotics-series/): Foundations of computational semiotics
+- [Inkuary Series: Analytical Frameworks](https://mariannedawson.dev/posts/inkuary-series-analytical-frameworks/): Analytical thinking tools for developers
+- [The Naming Ceremony](https://mariannedawson.dev/posts/the-naming-ceremony/): On cryptographic identity and naming
+- [Naming Ceremonies//Digital Signatures](https://mariannedawson.dev/posts/naming-ceremonies-digital-signatures/): Digital identity through cryptographic naming
+- [Post Mortem: A Coordination Challenge](https://mariannedawson.dev/posts/post-mortem-a-coordination-challenge/): Retrospective on a multi-player coordination puzzle
+- [A Coordination Challenge](https://mariannedawson.dev/posts/a-coordination-challenge/): Designing a 10-player puzzle requiring collective action
+
+## Projects
+
+- [Threadlinking](https://github.com/thrialectics/threadlinking): CLI tool and MCP server for preserving decision-making context across AI coding sessions. Published on npm.
+- [Klew Studio](https://klew.studio): Narrative strategy studio designing ARGs and immersive experiences
+- [Serpent/Dove (Bye, Marianne)](https://byemarianne.com): Multi-platform alternate reality game with cryptographic identity layer
+- [Intention Primitive Language](https://apo-pitch.netlify.app/): Research prototype for a declarative language describing software intentions
+
+## Links
+
+- [Substack](https://byemarianne.substack.com): Newsletter and essays
+- [Twitter](https://twitter.com/thrialectics)
+- [GitHub](https://github.com/thrialectics)
+- [RSS Feed](https://mariannedawson.dev/feed.xml)
